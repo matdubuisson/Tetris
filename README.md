@@ -126,3 +126,4 @@ $ ./build/Tetris
 - [SDL3 releases](https://github.com/libsdl-org/SDL/releases)
 - [SDL3 dependencies installation](https://wiki.libsdl.org/SDL3/README-linux)
 - [SDL3 installation and setup tutorial](https://glusoft.com/sdl3-tutorials/install-sdl3-linux-cmake/)
+- [SDL3 examples](https://examples.libsdl.org/SDL3/)
