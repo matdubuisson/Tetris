@@ -95,3 +95,4 @@ $ ./build/Tetris
 - [.clang-format](https://gist.github.com/gelldur/d7bc3ea226aebcf8cc879df1e8524236)
 - [.clang-format for wget](https://gist.githubusercontent.com/gelldur/d7bc3ea226aebcf8cc879df1e8524236/raw/cf155f9ad92461160e149b616fb45a22a3996d0d/.clang-format)
 - [CMake installation](https://linuxcapable.com/how-to-install-cmake-on-ubuntu-linux/)
+- [CMake configuration tutorial](https://keasigmadelta.com/blog/cmake-tutorial-getting-started/?srsltid=AfmBOortqWGGd9fU7lzmIAbkeMwvWKoPue5eVIYVfbw9taAEZ15HbIME)
