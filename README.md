@@ -74,6 +74,33 @@ cmake version 4.2.3
 CMake suite maintained and supported by Kitware (kitware.com/cmake).
 ```
 
+### SDL3 installation
+
+#### Dependencies
+
+```bash
+$ sudo apt update
+$ sudo apt install -y build-essential git make pkg-config cmake ninja-build gnome-desktop-testing libasound2-dev libpulse-dev libaudio-dev libfribidi-dev libjack-dev libsndio-dev libx11-dev libxext-dev libxrandr-dev libxcursor-dev libxfixes-dev libxi-dev libxss-dev libxtst-dev libxkbcommon-dev libdrm-dev libgbm-dev libgl1-mesa-dev libgles2-mesa-dev libegl1-mesa-dev libdbus-1-dev libibus-1.0-dev libudev-dev libthai-dev libusb-1.0-0-dev libpipewire-0.3-dev libwayland-dev libdecor-0-dev liburing-dev
+```
+
+#### Building
+
+Go to [SDL3 releases](https://github.com/libsdl-org/SDL/releases) and install the proper `.tar.gz`.
+Here I chose 3.4.14.
+
+```bash
+$ mkdir tmp
+$ cd tmp/
+$ tar -xvf SDL3-3.4.14.tar.gz
+$ cd SDL3-3.4.14/
+$ cmake -B build/
+$ cd build/
+$ make
+$ sudo make install
+$ cd ../../../
+$ rm -rf tmp/
+```
+
 ## Project building
 
 ```bash
@@ -96,3 +123,6 @@ $ ./build/Tetris
 - [.clang-format for wget](https://gist.githubusercontent.com/gelldur/d7bc3ea226aebcf8cc879df1e8524236/raw/cf155f9ad92461160e149b616fb45a22a3996d0d/.clang-format)
 - [CMake installation](https://linuxcapable.com/how-to-install-cmake-on-ubuntu-linux/)
 - [CMake configuration tutorial](https://keasigmadelta.com/blog/cmake-tutorial-getting-started/?srsltid=AfmBOortqWGGd9fU7lzmIAbkeMwvWKoPue5eVIYVfbw9taAEZ15HbIME)
+- [SDL3 releases](https://github.com/libsdl-org/SDL/releases)
+- [SDL3 dependencies installation](https://wiki.libsdl.org/SDL3/README-linux)
+- [SDL3 installation and setup tutorial](https://glusoft.com/sdl3-tutorials/install-sdl3-linux-cmake/)
