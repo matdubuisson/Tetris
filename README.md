@@ -74,6 +74,20 @@ cmake version 4.2.3
 CMake suite maintained and supported by Kitware (kitware.com/cmake).
 ```
 
+## Project building
+
+```bash
+$ cmake -B build/
+$ cd build/
+$ cmake --build . --parallel
+```
+
+## Run the project
+
+```bash
+$ ./build/Tetris
+```
+
 ## References
 
 - [C++20 ubuntu installation](https://hackmd.io/@JackyDev/SJ8pqFA1xx)
